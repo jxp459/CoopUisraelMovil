@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{92302ED6-D0EF-49E4-A675-418C74AFD3E3}|Default">
+  <MonoDevelop.Ide.ItemProperties.CoopUisraelSQlite.iOS automaticSigning="False" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoopUisraelSQlite/Simular.xaml.cs">
+    <Files>
+      <File FileName="CoopUisraelSQlite/Simular.xaml.cs" Line="20" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CoopUisraelSQlite" expanded="True" selected="True">
+            <Node name="CoopUisraelSQlite" expanded="True">
+              <Node name="Simular.xaml" expanded="True" />
+            </Node>
+            <Node name="CoopUisraelSQlite.Android" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="xml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="CoopUisraelSQlite.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CoopUisraelSQlite.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+</Properties>
