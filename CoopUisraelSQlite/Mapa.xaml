@@ -5,9 +5,9 @@
             <Label Text="Ubicacion"></Label>
             <Entry Text="Nombre Ubicacion" x:Name="txtNombreUbica"></Entry>
             <Label Text="Latitud" Margin="0,24,0,0"></Label>
-            <Entry Text="-0.22985" Keyboard="Numeric" x:Name="txtlatitud"></Entry>
+            <Entry Text="-0.42985" Keyboard="Numeric" x:Name="txtlatitud"></Entry>
             <Label Text="Longitud" Margin="0,24,0,0"></Label>
-            <Entry Text="-78.52495" x:Name="txtLongitud" Keyboard="Numeric"></Entry>
+            <Entry Text="-78.32495" x:Name="txtLongitud" Keyboard="Numeric"></Entry>
             <Button Text="Abrir Ubicacion" x:Name="btnAbrir" Clicked="btnAbrir_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
