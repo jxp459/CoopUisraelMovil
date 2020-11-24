@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.CoopUisraelSQlite.iOS automaticSigning="False" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CoopUisraelSQlite/Mapa.xaml.cs">
     <Files>
-      <File FileName="CoopUisraelSQlite/Mapa.xaml" Line="12" Column="23" />
-      <File FileName="CoopUisraelSQlite/Mapa.xaml.cs" Line="24" Column="24" />
+      <File FileName="CoopUisraelSQlite/Mapa.xaml.cs" Line="16" Column="1" />
+      <File FileName="CoopUisraelSQlite/Mapa.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +14,6 @@
               <Node name="Mapa.xaml" expanded="True">
                 <Node name="Mapa.xaml.cs" selected="True" />
               </Node>
-              <Node name="Registro.xaml" expanded="True" />
             </Node>
             <Node name="CoopUisraelSQlite.Android" expanded="True">
               <Node name="Properties" expanded="True" />

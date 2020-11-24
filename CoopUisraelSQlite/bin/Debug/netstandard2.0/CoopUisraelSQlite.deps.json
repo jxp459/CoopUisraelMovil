@@ -10,12 +10,9 @@
       "CoopUisraelSQlite/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "Plugin.Permissions": "6.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141",
-          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "sqlite-net-pcl": "1.7.335"
         },
         "runtime": {
@@ -26,17 +23,6 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
-        }
-      },
-      "Plugin.Permissions/6.0.1": {
-        "dependencies": {
-          "Xamarin.Essentials": "1.5.3.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Plugin.Permissions.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
         }
       },
       "sqlite-net-pcl/1.7.335": {
@@ -123,14 +109,6 @@
           }
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "runtime": {
-          "lib/netstandard2.0/Plugin.Geolocator.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Xam.Plugin.Media/5.0.1": {
         "dependencies": {
           "Xamarin.Essentials": "1.5.3.2"
@@ -168,17 +146,6 @@
             "fileVersion": "4.6.0.555"
           }
         }
-      },
-      "Xamarin.Forms.GoogleMaps/3.3.0": {
-        "dependencies": {
-          "Xamarin.Forms": "4.6.0.1141"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {
-            "assemblyVersion": "3.0.1.0",
-            "fileVersion": "3.0.1.0"
-          }
-        }
       }
     }
   },
@@ -201,13 +168,6 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
-    },
-    "Plugin.Permissions/6.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-na/0FNhyKmSicANWZMLSM0y/FW2AvLoawX3lsvBpELwP15sdJRyuBhRKk1OQjRoNrmTIewcON1tJFyydjMGWcA==",
-      "path": "plugin.permissions/6.0.1",
-      "hashPath": "plugin.permissions.6.0.1.nupkg.sha512"
     },
     "sqlite-net-pcl/1.7.335": {
       "type": "package",
@@ -272,13 +232,6 @@
       "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
     },
-    "Xam.Plugin.Geolocator/4.5.0.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
-      "path": "xam.plugin.geolocator/4.5.0.6",
-      "hashPath": "xam.plugin.geolocator.4.5.0.6.nupkg.sha512"
-    },
     "Xam.Plugin.Media/5.0.1": {
       "type": "package",
       "serviceable": true,
@@ -299,13 +252,6 @@
       "sha512": "sha512-SltuAt48A9qfC7pEo9zdQ5/IExdLkGttVAtv9bZw4IWA1SBbRpR2xbeduvowW9DQ/PjJD9HM7aSzxt0Spkwrkw==",
       "path": "xamarin.forms/4.6.0.1141",
       "hashPath": "xamarin.forms.4.6.0.1141.nupkg.sha512"
-    },
-    "Xamarin.Forms.GoogleMaps/3.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-C1wutzR7wLgUQuiG1NgArab0X02DGOKWW10+uLBUJE+Cac0+8J/TlLVqdqEl82BDGl3n71zmiLnHd5AZlrFEfw==",
-      "path": "xamarin.forms.googlemaps/3.3.0",
-      "hashPath": "xamarin.forms.googlemaps.3.3.0.nupkg.sha512"
     }
   }
 }

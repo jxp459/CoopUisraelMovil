@@ -302,12 +302,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.Permissions": "6.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141",
-          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -619,12 +616,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.Permissions": "6.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141",
-          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -936,12 +930,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.Permissions": "6.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141",
-          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -1253,12 +1244,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.Permissions": "6.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141",
-          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
