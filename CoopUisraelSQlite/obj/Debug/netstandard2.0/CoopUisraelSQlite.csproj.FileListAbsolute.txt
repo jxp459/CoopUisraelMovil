@@ -20,4 +20,3 @@
 /Users/juniorparraga/Downloads/CoopUisraelSQlite/CoopUisraelSQlite/obj/Debug/netstandard2.0/CreditoSeleccion.xaml.g.cs
 /Users/juniorparraga/Downloads/CoopUisraelSQlite/CoopUisraelSQlite/obj/Debug/netstandard2.0/Info.xaml.g.cs
 /Users/juniorparraga/Downloads/CoopUisraelSQlite/CoopUisraelSQlite/obj/Debug/netstandard2.0/Simular.xaml.g.cs
-/Users/juniorparraga/Downloads/CoopUisraelSQlite/CoopUisraelSQlite/obj/Debug/netstandard2.0/Mapa.xaml.g.cs

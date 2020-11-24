@@ -19,8 +19,5 @@ namespace CoopUisraelSQlite.Models
         [MaxLength(255)]
 
         public string Contrasenia { get; set; }
-        [MaxLength(255)]
-
-        public string Direccion { get; set; }
     }
 }
