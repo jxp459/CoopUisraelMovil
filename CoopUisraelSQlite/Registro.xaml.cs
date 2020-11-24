@@ -26,7 +26,7 @@ namespace CoopUisraelSQlite
         {
             try
             {
-                var DatosRegistro = new Estudiante { Nombre = Nombre.Text, Usuario = Usuario.Text, Contrasenia = Contrasenia.Text };
+                var DatosRegistro = new Estudiante { Nombre = Nombre.Text, Usuario = Usuario.Text, Contrasenia = Contrasenia.Text, Direccion= Direccion.Text };
                 _conn.InsertAsync(DatosRegistro);
                 limpiarFormulario();
             }
@@ -41,7 +41,13 @@ namespace CoopUisraelSQlite
             Nombre.Text = "";
             Usuario.Text = "";
             Contrasenia.Text = "";
+            Direccion.Text = "";
             DisplayAlert("Alerta", "Se agrego correctamente", "OK");
+        }
+
+        void btn_Mapa_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new Mapa());
         }
     }
 }

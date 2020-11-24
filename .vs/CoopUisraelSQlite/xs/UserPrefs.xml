@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{92302ED6-D0EF-49E4-A675-418C74AFD3E3}|Default">
   <MonoDevelop.Ide.ItemProperties.CoopUisraelSQlite.iOS automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoopUisraelSQlite/Mapa.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoopUisraelSQlite/Registro.xaml.cs">
     <Files>
-      <File FileName="CoopUisraelSQlite/Mapa.xaml.cs" Line="16" Column="1" />
-      <File FileName="CoopUisraelSQlite/Mapa.xaml" />
+      <File FileName="CoopUisraelSQlite/Mapa.xaml.cs" Line="6" Column="1" />
+      <File FileName="CoopUisraelSQlite/Mapa.xaml" Line="12" Column="23" />
+      <File FileName="CoopUisraelSQlite/Registro.xaml" Line="24" Column="71" />
+      <File FileName="CoopUisraelSQlite/Registro.xaml.cs" Line="42" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,14 +13,16 @@
           <Node name="CoopUisraelSQlite" expanded="True">
             <Node name="CoopUisraelSQlite" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="Mapa.xaml" expanded="True">
-                <Node name="Mapa.xaml.cs" selected="True" />
+              <Node name="Mapa.xaml" expanded="True" />
+              <Node name="Registro.xaml" expanded="True">
+                <Node name="Registro.xaml.cs" selected="True" />
               </Node>
             </Node>
             <Node name="CoopUisraelSQlite.Android" expanded="True">
               <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True" />
             </Node>
+            <Node name="CoopUisraelSQlite.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

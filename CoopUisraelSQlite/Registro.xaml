@@ -20,6 +20,13 @@
                 <Label Text="Contraseña: "/>
                 <Entry Placeholder="Elige una contraseña" IsPassword="True" x:Name="Contrasenia"/>
 
+                <Label Text="Direccion: "/>
+                <Entry Placeholder="Escribe tu direccion"  x:Name="Direccion"/>
+
+
+                <Button x:Name="btn_Mapa" Text="Mapa" Clicked="btn_Mapa_Clicked" BackgroundColor="Azure">
+                </Button>
+
                 <Button x:Name="btn_agregar" Text="Registrar" Clicked="btn_agregar_Clicked" BackgroundColor="Azure">
                 </Button>
 
