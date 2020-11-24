@@ -3,14 +3,19 @@
     <ContentPage.Content>
           <ScrollView>
             <StackLayout Padding="20" Spacing="30">
-              
+              <Label x:Name="lbInformacion"
+               FontSize="Title"
+                    Text="Simulador de crédito"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+                  TextColor="#003467"  />
                 <Label Text="Monto del crédito: "/>
                 <Entry Placeholder="Monto" Keyboard="Numeric" x:Name="txtMonto"/>
 
                 <Label Text="Plazo: "/>
                 <Entry Placeholder="Plazo" Keyboard="Numeric" x:Name="txtPlazo"/>
 
-                <Label Text="Pago Total: "/>
+                <Label Text="Pago Total: " />
                 <Label x:Name="lbpagoTotal" Text=""/>
                 <Label Text="Pago mensual: "/>
                 <Label x:Name="lbpagoMensual" Text=""/>

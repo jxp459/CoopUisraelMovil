@@ -4,6 +4,7 @@
              x:Class="CoopUisraelSQlite.Login">
     <ScrollView>
         <StackLayout Padding="30" Spacing="30">
+            <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png"></Image>
             <Entry Placeholder="Introduce tu usuario" Keyboard="Email" x:Name="usuario"/>
             <Entry Placeholder="Introduce tu contraseña" IsPassword="True" x:Name="contra"/>
 

@@ -3,13 +3,17 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Spacing="10" Padding="10">
-                 <Label x:Name="lbUsuario"
-               FontSize="Medium"
-               VerticalOptions="End"
-               HorizontalOptions="End"/>
+                   <Label VerticalOptions="End" HorizontalOptions="End" x:Name="lbUsuario"></Label>
+             
+                <Label x:Name="lbinfor"
+               FontSize="Title"
+                        Text="Información de crédito"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+                        TextColor="#003467"/>
              
                 <Label x:Name="mensaje"/>
-                <Label Text="Nombre: "/>
+                <Label Text="Nombre:"/>
                 <Entry x:Name="txtNombre" Placeholder="Nombre"/>
                 <Label Text="Apellido: "/>
                 <Entry x:Name="txtApellido" Placeholder="Apellido"/>
@@ -19,8 +23,8 @@
                 <Entry x:Name="txtMonto" Placeholder="Monto"/>
                 <Label Text="Plazo: "/>
                 <Entry x:Name="txtPlazo" Placeholder="Plazo"/>
-                <Button x:Name="btn_actualizar" Text="Actualizar" Clicked="btn_actualizar_Clicked" BackgroundColor="LawnGreen"/>
-                <Button x:Name="btn_eliminar" Text="Eliminar" Clicked="btn_eliminar_Clicked" BackgroundColor="Red"/>
+                <Button x:Name="btn_actualizar" Text="Actualizar" Clicked="btn_actualizar_Clicked" TextColor="White" BackgroundColor="#0074d5"/>
+                <Button x:Name="btn_eliminar" Text="Eliminar" Clicked="btn_eliminar_Clicked" TextColor="White" BackgroundColor="Red"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -3,6 +3,12 @@
     <ContentPage.Content>
          <ScrollView>
             <StackLayout Padding="20" Spacing="30">
+                <Label x:Name="lbInformacion"
+               FontSize="Title"
+                    Text="Crear crédito"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+                  TextColor="#003467"  />
                 <Label Text="Nombres: "/>
                 <Entry Placeholder="Introduce tus nombres" x:Name="txtNombres"/>
                 <Label Text="Apellidos: "/>
@@ -17,7 +23,7 @@
 
                 
 
-                <Button x:Name="btn_CrearCredito" Text="Crear Crédito" Clicked="btn_CrearCredito_Clicked" BackgroundColor="Azure">
+                <Button x:Name="btn_CrearCredito" TextColor="White" Text="Crear Crédito" Clicked="btn_CrearCredito_Clicked" BackgroundColor="#0074d5">
                 </Button>
 
             </StackLayout>

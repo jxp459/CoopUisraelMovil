@@ -5,6 +5,12 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="20" Spacing="30">
+                <Label x:Name="lbInformacion"
+               FontSize="Title"
+                    Text="Registro"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+                  TextColor="#003467"  />
                 <Label Text="Nombre: "/>
                 <Entry Placeholder="Introduce tu nombre" x:Name="Nombre"/>
 
@@ -14,7 +20,7 @@
                 <Label Text="Contraseña: "/>
                 <Entry Placeholder="Elige una contraseña" IsPassword="True" x:Name="Contrasenia"/>
 
-                <Button x:Name="btn_agregar" Text="Agregar" Clicked="btn_agregar_Clicked" BackgroundColor="Azure">
+                <Button x:Name="btn_agregar" Text="Registrar" Clicked="btn_agregar_Clicked" BackgroundColor="Azure">
                 </Button>
 
             </StackLayout>

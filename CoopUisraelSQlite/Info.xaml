@@ -2,13 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoopUisraelSQlite.Info">
     <ContentPage.Content>
         <StackLayout>
-             <Label Text="* Tener cuenta activa"/>
+            <Label x:Name="lbInformacion"
+               FontSize="Title"
+                    Text="Lista de Requisitos"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+                  TextColor="#003467"  />
+             <Label Text="* Tener cuenta activa" HorizontalTextAlignment="Center"/>
                 
-                <Label Text="* Cédula"/>
+                <Label Text="* Cédula" HorizontalTextAlignment="Center"/>
                 
-                <Label Text="* Planilla de servicios básicos"/>
-                <Label Text="* Rol de pagos"/>
-                <Label Text="* Certificado de traajo"/>
+                <Label Text="* Planilla de servicios básicos" HorizontalTextAlignment="Center"/>
+                <Label Text="* Rol de pagos" HorizontalTextAlignment="Center"/>
+                <Label Text="* Certificado de traajo" HorizontalTextAlignment="Center"/>
                  <Button x:Name="btn_Simular" Text="Simular Crédito" Clicked="btn_SimularCredito_Clicked" BackgroundColor="Azure">
                 </Button>
         </StackLayout>

@@ -9,16 +9,23 @@
                FontSize="Medium"
                VerticalOptions="End"
                HorizontalOptions="End" />
+            <Label x:Name="lbInformacion"
+               FontSize="Title"
+                    Text="Lista de creditos"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+                  TextColor="#003467"  />
+            
             <ListView x:Name="ListaUsuarios" ItemSelected="OnSelection">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding FullName}" Detail="{Binding Monto}"></TextCell>
+                        <TextCell Text="{Binding FullName}" TextColor="DarkBlue" Detail="{Binding Monto}" ></TextCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
             
             <Button x:Name="btn_InforCredito" Text="Informacion de Credito" Clicked="btn_InformacionCredito_Clicked" BackgroundColor="AliceBlue"/>
-            <Button x:Name="btn_CrearCredito" Text="Crear Credito" Clicked="btn_CrearCredito_Clicked" BackgroundColor="LawnGreen"/>
+            <Button x:Name="btn_CrearCredito" Text="Solicitar Credito" Clicked="btn_CrearCredito_Clicked" BackgroundColor="AntiqueWhite"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
